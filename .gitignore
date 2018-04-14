@@ -122,3 +122,7 @@ venv.bak/
 
 # sftp configuration file
 sftp-config.json
+
+# my crap
+setup.sh
+sot_locations.csv
