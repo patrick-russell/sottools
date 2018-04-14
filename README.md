@@ -1,8 +1,8 @@
-#Sea of Thieves Tools
+## Sea of Thieves Tools
 
 Set of little helper tools and data collection things for being a better pirate.
 
-##Things we have in mind
+### Things we have in mind
 - a loot calculator. How much $$ do you have onboard?
 - closest outpost to your location?
 - links to other helpful tools
@@ -10,7 +10,7 @@ Set of little helper tools and data collection things for being a better pirate.
     - [bootytracker.net route planner](http://www.bootytracker.net/)
 
 
-##Built with:
+### Built with:
 
 [Flask](https:://flask.pocoo.org)
 [Flask-CORS](http://flask-cors.readthedocs.io/en/latest/)
