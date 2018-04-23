@@ -1,0 +1,47 @@
+{% extends 'layout.html' %}
+{% block title %}Sea of Thieves Loot Estimate{% endblock %}
+{% block content %}
+<div class="bg-secondary" id="loot-estimate-body">
+    <h5>Loot Estimate</h5>
+    {% with messages = get_flashed_messages(category_filter=['important']) %}
+        {% if messages %}
+            <div class="alert alert-info alert-dismissible" role="alert">
+                <ul class=flashes>
+                    {% for message in messages %}
+                    <li>{{ message }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        {% endif %}
+    {% endwith %}</p>
+    <h3>Approximate value of your haul:</h3>
+    <table class="table-bordered table-active">
+        <tr>
+            <th>Name</th>
+            <th>Count</th>
+            <th>Average Value</th>
+            <th>Median Value</th>
+            <th>Standard Deviation</th>
+        </tr>
+        {% for key, value in loot.items() %}
+            {% set count = value['count'] %}
+            <tr>
+                <td>{{ value['name'] }}</td>
+                <td class="round-me">{{ count }}</td>
+                <td class="round-me">£{{ value['average'] * count }}</td>
+                <td class="round-me">£{{ value['median'] * count }}</td>
+                <td class="round-me">£{{ value['standard deviation'] * count }}</td>
+            </tr>
+        {% endfor %}
+        <tr>
+            <td>Total</td>
+            <td class="round-me">{{ totals['count'] }}</td>
+            <td class="round-me">£{{ totals['average'] }}</td>
+            <td class="round-me">£{{ totals['median'] }}</td>
+            <td></td>
+        </tr>
+        <small class="float-right">values in ducets</small>
+    </table>
+</div>
+</div>
+{% endblock content %}

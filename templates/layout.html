@@ -1,20 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     {% include 'head.html' %}
     <title>{% block title %}{% endblock %} - sottools.com</title>
 </head>
-<body>
+
+<body class="bg-dark">
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MGMW73T"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+{#     <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MGMW73T" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript> #}
     <!-- End Google Tag Manager (noscript) -->
-    <div id='navigation'>{% block navigation %}{% endblock %}</div>
-    <div id="content">{% block content %}{% endblock %}</div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col bg-dark">
+            </div>
+            <!-- main container -->
+            <div class="col bg-secondary">
+                <img src="{{ url_for('static', filename='imgs/headerlogo.png') }}" , alt='Sea of Thieves Tools'>
+                {% include 'navigation.html' %}
+                {% block content %}{% endblock content%}
+            </div>
+            <!-- end main container -->
+        </div>
+    </div>
     <div id="footer">
-        {% block footer %}
-            {% include 'footer.html' %}
-        {% endblock %}
+        {% include 'footer.html' %}
     </div>
 </body>
+
 </html>

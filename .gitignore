@@ -1,3 +1,7 @@
+###OSX###
+
+.DS_Store
+
 ###Python###
 
 # Byte-compiled / optimized / DLL files
@@ -123,7 +127,12 @@ venv.bak/
 # sftp configuration file
 sftp-config.json
 
+# zappa
+zappa_settings.json
+sottools-dev-template*.json
+
 # my crap
 setup.sh
 sot_locations.csv
 test.html
+setup

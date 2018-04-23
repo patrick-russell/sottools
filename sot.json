@@ -1,623 +1,920 @@
 {
-  "items": [
-    "Golden Reliquery",
-    "Voyage Gold Chicken",
-    "Voyage Black Chicken",
-    "Silvered Cup",
-    "Voyage White Chicken",
-    "Peculiar Relic",
-    "White Chicken",
-    "Chest of Sorrow",
-    "Black Coated Pig",
-    "Hateful Bounty Skull",
-    "Voyage Blue Dappled Snake",
-    "Gold Striped Pig",
-    "Red Speckled Chicken",
-    "Gilded Chalice",
-    "Elaborate Flagon",
-    "Disgraced Bounty Skull",
-    "Stronghold Chest",
-    "Pink and Black Spotted Pig",
-    "Bronze Secret-Keeper",
-    "Rare Tea",
-    "Gold Snake",
-    "Castaway Chest",
-    "Black Chicken",
-    "Opulent Curio",
-    "Seafarers Chest",
-    "Golden Flagon",
-    "Pink Bristtled Pig",
-    "Gunpowder Keg",
-    "Villanous Bounty Skull",
-    "Blue Dappled Snake",
-    "Decorative Coffer",
-    "Voyage Red Striped Snake",
-    "Gold Chicken",
-    "Stronghold Bounty Skull",
-    "Voyage Gold Striped Pig",
-    "Voyage Pink Bristled Pig",
-    "Voyage Red Speckled Chicken",
-    "Red Striped Snake",
-    "Chest of 1000 Grogs",
-    "Foul Bounty Skull",
-    "Marauders Chest",
-    "Adorned Receptacle",
-    "Voyage Gold Snake",
-    "Voyage Black Coated Pig",
-    "Voyage Pink And Black Spotted Pig",
-    "Voyage Gunpowder Keg",
-    "Fine Sugar",
-    "Pink Bristled Pig",
-    "Captain's Chest",
-    "Exotic Silks",
-    "Mysterious Vessel"
-  ],
-  "locations": [
-    {
-      "coord": [
-        "T",
-        "19"
-      ],
-      "name": "Barnacle Cay",
-      "region": "The Ancient Isles",
-      "type": "Small Island"
+    "items": {
+        "ed9f962": {
+            "item": "Adorned Receptacle",
+            "average": 0.0,
+            "median": 0.0,
+            "stdev": 0.0
+        },
+        "c5bb693": {
+            "item": "Banana Crate",
+            "average": 458.0,
+            "median": 458.0,
+            "stdev": 0.0
+        },
+        "0c94895": {
+            "item": "Banana Crate - Voyage",
+            "average": 0.0,
+            "median": 0.0,
+            "stdev": 0.0
+        },
+        "594f1c1": {
+            "item": "Black Coated Pig",
+            "average": 0.0,
+            "median": 0.0,
+            "stdev": 0.0
+        },
+        "9f1b1e7": {
+            "item": "Black Coated Pig - Voyage",
+            "average": 669.6,
+            "median": 656.0,
+            "stdev": 78.67
+        },
+        "077dbf7": {
+            "item": "Black Feathered Chicken - Voyage",
+            "average": 753.08,
+            "median": 754.0,
+            "stdev": 112.17
+        },
+        "6272aa2": {
+            "item": "Black Feathered Chicken",
+            "average": 0.0,
+            "median": 0.0,
+            "stdev": 0.0
+        },
+        "f359b8f": {
+            "item": "Black Scaled Snake",
+            "average": 0.0,
+            "median": 0.0,
+            "stdev": 0.0
+        },
+        "2755463": {
+            "item": "Black Scaled Snake - Voyage",
+            "average": 699.33,
+            "median": 619.5,
+            "stdev": 169.76
+        },
+        "c3f3482": {
+            "item": "Blue Dappled Snake",
+            "average": 0.0,
+            "median": 0.0,
+            "stdev": 0.0
+        },
+        "2d527d6": {
+            "item": "Blue Dappled Snake - Voyage",
+            "average": 436.5,
+            "median": 436.5,
+            "stdev": 34.65
+        },
+        "c3522b6": {
+            "item": "Cannonball Crate",
+            "average": 0.0,
+            "median": 0.0,
+            "stdev": 0.0
+        },
+        "253a694": {
+            "item": "Cannonball Crate - Voyage",
+            "average": 0.0,
+            "median": 0.0,
+            "stdev": 0.0
+        },
+        "760cb8c": {
+            "item": "Captain's Chest",
+            "average": 789.92,
+            "median": 822.0,
+            "stdev": 137.51
+        },
+        "8d06928": {
+            "item": "Castaway Chest",
+            "average": 90.25,
+            "median": 86.5,
+            "stdev": 15.33
+        },
+        "2432937": {
+            "item": "Chest of 1000 Grogs",
+            "average": 0.0,
+            "median": 0.0,
+            "stdev": 0.0
+        },
+        "582671d": {
+            "item": "Chest of Sorrow",
+            "average": 1063.0,
+            "median": 1063.0,
+            "stdev": 0.0
+        },
+        "4c7440d": {
+            "item": "Decorative Coffer",
+            "average": 0.0,
+            "median": 0.0,
+            "stdev": 0.0
+        },
+        "8911163": {
+            "item": "Disgraced Bounty Skull",
+            "average": 254.28,
+            "median": 250.0,
+            "stdev": 42.54
+        },
+        "27f2766": {
+            "item": "Elaborate Flagon",
+            "average": 169.5,
+            "median": 169.5,
+            "stdev": 28.99
+        },
+        "055b458": {
+            "item": "Exotic Silks",
+            "average": 881.0,
+            "median": 881.0,
+            "stdev": 0.0
+        },
+        "a1d23bf": {
+            "item": "Exquisite Spices",
+            "average": 1467.0,
+            "median": 1448.0,
+            "stdev": 147.42
+        },
+        "53b5298": {
+            "item": "Fine Sugar",
+            "average": 156.0,
+            "median": 156.0,
+            "stdev": 0.0
+        },
+        "b8a1a32": {
+            "item": "Foul Bounty Skull",
+            "average": 130.5,
+            "median": 126.0,
+            "stdev": 19.93
+        },
+        "8fa492d": {
+            "item": "Gilded Chalice",
+            "average": 0.0,
+            "median": 0.0,
+            "stdev": 0.0
+        },
+        "471d5ab": {
+            "item": "Gold Striped Pig",
+            "average": 0.0,
+            "median": 0.0,
+            "stdev": 0.0
+        },
+        "e939fd5": {
+            "item": "Gold Striped Pig - Voyage",
+            "average": 1499.88,
+            "median": 1490.5,
+            "stdev": 241.94
+        },
+        "69bf83a": {
+            "item": "Golden Chicken",
+            "average": 137.4,
+            "median": 141.0,
+            "stdev": 29.74
+        },
+        "c1dcdab": {
+            "item": "Golden Chicken - Voyage",
+            "average": 1467.56,
+            "median": 1456.0,
+            "stdev": 293.49
+        },
+        "38b5c35": {
+            "item": "Golden Reliquery",
+            "average": 486.0,
+            "median": 486.0,
+            "stdev": 0.0
+        },
+        "6a6d076": {
+            "item": "Golden Snake",
+            "average": 142.0,
+            "median": 142.0,
+            "stdev": 0.0
+        },
+        "c720327": {
+            "item": "Golden Snake - Voyage",
+            "average": 1592.0,
+            "median": 1592.0,
+            "stdev": 342.24
+        },
+        "42c856a": {
+            "item": "Gunpowder Keg",
+            "average": 150.03,
+            "median": 146.0,
+            "stdev": 22.23
+        },
+        "4e3483f": {
+            "item": "Gunpowder Keg - Voyage",
+            "average": 686.44,
+            "median": 684.5,
+            "stdev": 112.44
+        },
+        "2889e14": {
+            "item": "Hateful Bounty Skull",
+            "average": 526.23,
+            "median": 546.0,
+            "stdev": 93.93
+        },
+        "c94d147": {
+            "item": "Marauders Chest",
+            "average": 385.5,
+            "median": 371.5,
+            "stdev": 70.83
+        },
+        "81eb78c": {
+            "item": "Mysterious Vessel",
+            "average": 0.0,
+            "median": 0.0,
+            "stdev": 0.0
+        },
+        "2997f2d": {
+            "item": "Opulent Curio",
+            "average": 0.0,
+            "median": 0.0,
+            "stdev": 0.0
+        },
+        "96b4151": {
+            "item": "Ornate Curafe",
+            "average": 0.0,
+            "median": 0.0,
+            "stdev": 0.0
+        },
+        "ef0e31b": {
+            "item": "Peculiar Relic",
+            "average": 655.0,
+            "median": 655.0,
+            "stdev": 0.0
+        },
+        "6bf93af": {
+            "item": "Pink and Black Spotted Pig",
+            "average": 0.0,
+            "median": 0.0,
+            "stdev": 0.0
+        },
+        "61331ed": {
+            "item": "Pink And Black Spotted Pig - Voyage",
+            "average": 351.38,
+            "median": 337.5,
+            "stdev": 47.97
+        },
+        "a44e740": {
+            "item": "Pink Bristled Pig",
+            "average": 0.0,
+            "median": 0.0,
+            "stdev": 0.0
+        },
+        "43a0ee8": {
+            "item": "Pink Bristled Pig - Voyage",
+            "average": 209.33,
+            "median": 215.0,
+            "stdev": 26.95
+        },
+        "3c9386f": {
+            "item": "Rare Tea",
+            "average": 363.5,
+            "median": 357.5,
+            "stdev": 17.1
+        },
+        "394e6e6": {
+            "item": "Red Speckled Chicken",
+            "average": 0.0,
+            "median": 0.0,
+            "stdev": 0.0
+        },
+        "7054998": {
+            "item": "Red Speckled Chicken - Voyage",
+            "average": 343.08,
+            "median": 348.0,
+            "stdev": 50.4
+        },
+        "d309f53": {
+            "item": "Red Striped Snake",
+            "average": 0.0,
+            "median": 0.0,
+            "stdev": 0.0
+        },
+        "9a79436": {
+            "item": "Red Striped Snake - Voyage",
+            "average": 0.0,
+            "median": 0.0,
+            "stdev": 0.0
+        },
+        "1e9497f": {
+            "item": "Seafarers Chest",
+            "average": 205.18,
+            "median": 212.0,
+            "stdev": 35.16
+        },
+        "a64036b": {
+            "item": "Silvered Cup",
+            "average": 0.0,
+            "median": 0.0,
+            "stdev": 0.0
+        },
+        "a43949d": {
+            "item": "Stronghold Bounty Skull",
+            "average": 0.0,
+            "median": 0.0,
+            "stdev": 0.0
+        },
+        "a97c922": {
+            "item": "Stronghold Chest",
+            "average": 0.0,
+            "median": 0.0,
+            "stdev": 0.0
+        },
+        "06a2088": {
+            "item": "Villanous Bounty Skull",
+            "average": 1027.14,
+            "median": 1001.0,
+            "stdev": 203.6
+        },
+        "326b0ce": {
+            "item": "White Feathered Chicken",
+            "average": 0.0,
+            "median": 0.0,
+            "stdev": 0.0
+        },
+        "263115e": {
+            "item": "White Feathered Chicken - Voyage",
+            "average": 293.33,
+            "median": 195.0,
+            "stdev": 203.12
+        },
+        "a8bae08": {
+            "item": "Wooden Plank Crate",
+            "average": 0.0,
+            "median": 0.0,
+            "stdev": 0.0
+        },
+        "24ab3d2": {
+            "item": "Wooden Plank Crate - Voyage",
+            "average": 0.0,
+            "median": 0.0,
+            "stdev": 0.0
+        }
     },
-    {
-      "coord": [
-        "T",
-        "3"
-      ],
-      "name": "Black Sand Atoll",
-      "region": "The Wilds",
-      "type": "Small Island"
-    },
-    {
-      "coord": [
-        "X",
-        "5"
-      ],
-      "name": "Black Water Enclave",
-      "region": "The Wilds",
-      "type": "Small Island"
-    },
-    {
-      "coord": [
-        "S",
-        "6"
-      ],
-      "name": "Blind Man's Lagoon",
-      "region": "The Wilds",
-      "type": "Small Island"
-    },
-    {
-      "coord": [
-        "N",
-        "25"
-      ],
-      "name": "Booty Isle",
-      "region": "The Ancient Isles",
-      "type": "Small Island"
-    },
-    {
-      "coord": [
-        "H",
-        "5"
-      ],
-      "name": "Boulder Cay",
-      "region": "The Shores of Plenty",
-      "type": "Small Island"
-    },
-    {
-      "coord": [
-        "M",
-        "16"
-      ],
-      "name": "Castaway Isle",
-      "region": "The Ancient Isles",
-      "type": "Small Island"
-    },
-    {
-      "coord": [
-        "K",
-        "19"
-      ],
-      "name": "Chicken Isle",
-      "region": "The Ancient Isles",
-      "type": "Small Island"
-    },
-    {
-      "coord": [
-        "Q",
-        "22"
-      ],
-      "name": "Cutlass Cay",
-      "region": "The Ancient Isles",
-      "type": "Small Island"
-    },
-    {
-      "coord": [
-        "K",
-        "17"
-      ],
-      "name": "Fools Lagoon",
-      "region": "The Ancient Isles",
-      "type": "Small Island"
-    },
-    {
-      "coord": [
-        "S",
-        "10"
-      ],
-      "name": "Isle of Last Words",
-      "region": "The Wilds",
-      "type": "Small Island"
-    },
-    {
-      "coord": [
-        "D",
-        "15"
-      ],
-      "name": "Lagoon of Whispers",
-      "region": "The Shores of Plenty",
-      "type": "Small Island"
-    },
-    {
-      "coord": [
-        "Y",
-        "13"
-      ],
-      "name": "Liar's Backbone",
-      "region": "The Wilds",
-      "type": "Small Island"
-    },
-    {
-      "coord": [
-        "I",
-        "9"
-      ],
-      "name": "Lonely Isle",
-      "region": "The Shores of Plenty",
-      "type": "Small Island"
-    },
-    {
-      "coord": [
-        "L",
-        "25"
-      ],
-      "name": "Lookout Point",
-      "region": "The Ancient Isles",
-      "type": "Small Island"
-    },
-    {
-      "coord": [
-        "R",
-        "24"
-      ],
-      "name": "Mutineer Rock",
-      "region": "The Ancient Isles",
-      "type": "Small Island"
-    },
-    {
-      "coord": [
-        "G",
-        "23"
-      ],
-      "name": "Old Salts Atoll",
-      "region": "The Ancient Isles",
-      "type": "Small Island"
-    },
-    {
-      "coord": [
-        "O",
-        "21"
-      ],
-      "name": "Paradise Spring",
-      "region": "The Ancient Isles",
-      "type": "Small Island"
-    },
-    {
-      "coord": [
-        "K",
-        "4"
-      ],
-      "name": "Picaroon Palms",
-      "region": "The Shores of Plenty",
-      "type": "Small Island"
-    },
-    {
-      "coord": [
-        "W",
-        "6"
-      ],
-      "name": "Plunderer's Plight",
-      "region": "The Wilds",
-      "type": "Small Island"
-    },
-    {
-      "coord": [
-        "D",
-        "9"
-      ],
-      "name": "Rapier Cay",
-      "region": "The Shores of Plenty",
-      "type": "Small Island"
-    },
-    {
-      "coord": [
-        "J",
-        "11"
-      ],
-      "name": "Rum Runner Isle",
-      "region": "The Shores of Plenty",
-      "type": "Small Island"
-    },
-    {
-      "coord": [
-        "I",
-        "3"
-      ],
-      "name": "Salty Sands",
-      "region": "The Shores of Plenty",
-      "type": "Small Island"
-    },
-    {
-      "coord": [
-        "E",
-        "5"
-      ],
-      "name": "Sandy Shallows",
-      "region": "The Shores of Plenty",
-      "type": "Small Island"
-    },
-    {
-      "coord": [
-        "N",
-        "4"
-      ],
-      "name": "Scurvy Isley",
-      "region": "The Wilds",
-      "type": "Small Island"
-    },
-    {
-      "coord": [
-        "B",
-        "13"
-      ],
-      "name": "Sea Dog's Rest",
-      "region": "The Shores of Plenty",
-      "type": "Small Island"
-    },
-    {
-      "coord": [
-        "U",
-        "15"
-      ],
-      "name": "Shark Tooth Key",
-      "region": "The Wilds",
-      "type": "Small Island"
-    },
-    {
-      "coord": [
-        "V",
-        "13"
-      ],
-      "name": "Shiver Retreat",
-      "region": "The Wilds",
-      "type": "Small Island"
-    },
-    {
-      "coord": [
-        "W",
-        "11"
-      ],
-      "name": "Tri-Rock Isle",
-      "region": "The Wilds",
-      "type": "Small Island"
-    },
-    {
-      "coord": [
-        "I",
-        "13"
-      ],
-      "name": "Twin Groves",
-      "region": "The Shores of Plenty",
-      "type": "Small Island"
-    },
-    {
-      "coord": [
-        "H",
-        "11"
-      ],
-      "name": "Cannon Cove",
-      "region": "The Shores of Plenty",
-      "type": "Large Island"
-    },
-    {
-      "coord": [
-        "Q",
-        "19"
-      ],
-      "name": "Crook's Hollow",
-      "region": "The Ancient Isles",
-      "type": "Large Island"
-    },
-    {
-      "coord": [
-        "U",
-        "24"
-      ],
-      "name": "Devil's Ridge",
-      "region": "The Ancient Isles",
-      "type": "Large Island"
-    },
-    {
-      "coord": [
-        "E",
-        "24"
-      ],
-      "name": "Discovery Ridge",
-      "region": "The Ancient Isles",
-      "type": "Large Island"
-    },
-    {
-      "coord": [
-        "X",
-        "15"
-      ],
-      "name": "Kraken's Fall",
-      "region": "The Wilds",
-      "type": "Large Island"
-    },
-    {
-      "coord": [
-        "J",
-        "6"
-      ],
-      "name": "Lone Cove",
-      "region": "The Shores of Plenty",
-      "type": "Large Island"
-    },
-    {
-      "coord": [
-        "V",
-        "3"
-      ],
-      "name": "Marauder's Arch",
-      "region": "The Wilds",
-      "type": "Large Island"
-    },
-    {
-      "coord": [
-        "B",
-        "16"
-      ],
-      "name": "Mermaid's Hideaway",
-      "region": "The Shores of Plenty",
-      "type": "Large Island"
-    },
-    {
-      "coord": [
-        "Q",
-        "4"
-      ],
-      "name": "Old Faithful Isle",
-      "region": "The Wilds",
-      "type": "Large Island"
-    },
-    {
-      "coord": [
-        "H",
-        "19"
-      ],
-      "name": "Plunder Valley",
-      "region": "The Ancient Isles",
-      "type": "Large Island"
-    },
-    {
-      "coord": [
-        "B",
-        "3"
-      ],
-      "name": "Sailor's Bounty",
-      "region": "The Shores of Plenty",
-      "type": "Large Island"
-    },
-    {
-      "coord": [
-        "I",
-        "24"
-      ],
-      "name": "Shark Bait Cove",
-      "region": "The Ancient Isles",
-      "type": "Large Island"
-    },
-    {
-      "coord": [
-        "Q",
-        "12"
-      ],
-      "name": "Shipwreck Bay",
-      "region": "The Wilds",
-      "type": "Large Island"
-    },
-    {
-      "coord": [
-        "F",
-        "3"
-      ],
-      "name": "Smugglers' Bay",
-      "region": "The Shores of Plenty",
-      "type": "Large Island"
-    },
-    {
-      "coord": [
-        "N",
-        "19"
-      ],
-      "name": "Snake Island",
-      "region": "The Ancient Isles",
-      "type": "Large Island"
-    },
-    {
-      "coord": [
-        "T",
-        "13"
-      ],
-      "name": "The Crooked Masts",
-      "region": "The Wilds",
-      "type": "Large Island"
-    },
-    {
-      "coord": [
-        "T",
-        "8"
-      ],
-      "name": "The Sunken Grove",
-      "region": "The Wilds",
-      "type": "Large Island"
-    },
-    {
-      "coord": [
-        "P",
-        "24"
-      ],
-      "name": "Thieves' Haven",
-      "region": "The Ancient Isles",
-      "type": "Large Island"
-    },
-    {
-      "coord": [
-        "H",
-        "14"
-      ],
-      "name": "Wanderers Refuge",
-      "region": "The Shores of Plenty",
-      "type": "Large Island"
-    },
-    {
-      "coord": [
-        "K",
-        "9"
-      ],
-      "name": "Hidden Spring Keep",
-      "region": "The Shores of Plenty",
-      "type": "Fortress"
-    },
-    {
-      "coord": [
-        "C",
-        "7"
-      ],
-      "name": "Keel Haul Fort",
-      "region": "The Shores of Plenty",
-      "type": "Fortress"
-    },
-    {
-      "coord": [
-        "O",
-        "6"
-      ],
-      "name": "Kraken Watchtower",
-      "region": "The Wilds",
-      "type": "Fortress"
-    },
-    {
-      "coord": [
-        "J",
-        "21"
-      ],
-      "name": "Lost Gold Fort",
-      "region": "The Ancient Isles",
-      "type": "Fortress"
-    },
-    {
-      "coord": [
-        "P",
-        "17"
-      ],
-      "name": "Old Boot Fort",
-      "region": "The Ancient Isles",
-      "type": "Fortress"
-    },
-    {
-      "coord": [
-        "E",
-        "17"
-      ],
-      "name": "Sailor's Knot Stronghold",
-      "region": "The Shores of Plenty",
-      "type": "Fortress"
-    },
-    {
-      "coord": [
-        "U",
-        "5"
-      ],
-      "name": "Shark Fin Camp",
-      "region": "The Wilds",
-      "type": "Fortress"
-    },
-    {
-      "coord": [
-        "U",
-        "11"
-      ],
-      "name": "Skull Keep",
-      "region": "The Wilds",
-      "type": "Fortress"
-    },
-    {
-      "coord": [
-        "S",
-        "22"
-      ],
-      "name": "The Crow's Nest Fortress",
-      "region": "The Ancient Isles",
-      "type": "Fortress"
-    }
-  ],
-  "outposts": [
-    {
-      "coord": [
-        "V",
-        "21"
-      ],
-      "name": "Ancient Spire Outpost"
-    },
-    {
-      "coord": [
-        "Q",
-        "8"
-      ],
-      "name": "Dagger Tooth Outpost"
-    },
-    {
-      "coord": [
-        "X",
-        "9"
-      ],
-      "name": "Galleon's Grave Outpost"
-    },
-    {
-      "coord": [
-        "E",
-        "12"
-      ],
-      "name": "Golden Sands Outpost"
-    },
-    {
-      "coord": [
-        "M",
-        "22"
-      ],
-      "name": "Plunder Outpost"
-    },
-    {
-      "coord": [
-        "G",
-        "7"
-      ],
-      "name": "Sanctuary Outpost"
-    }
-  ]
+    "locations": [
+        {
+            "coord": [
+                "T",
+                "19"
+            ],
+            "name": "Barnacle Cay",
+            "region": "The Ancient Isles",
+            "type": "Small Island"
+        },
+        {
+            "coord": [
+                "T",
+                "3"
+            ],
+            "name": "Black Sand Atoll",
+            "region": "The Wilds",
+            "type": "Small Island"
+        },
+        {
+            "coord": [
+                "X",
+                "5"
+            ],
+            "name": "Black Water Enclave",
+            "region": "The Wilds",
+            "type": "Small Island"
+        },
+        {
+            "coord": [
+                "S",
+                "6"
+            ],
+            "name": "Blind Man's Lagoon",
+            "region": "The Wilds",
+            "type": "Small Island"
+        },
+        {
+            "coord": [
+                "N",
+                "25"
+            ],
+            "name": "Booty Isle",
+            "region": "The Ancient Isles",
+            "type": "Small Island"
+        },
+        {
+            "coord": [
+                "H",
+                "5"
+            ],
+            "name": "Boulder Cay",
+            "region": "The Shores of Plenty",
+            "type": "Small Island"
+        },
+        {
+            "coord": [
+                "M",
+                "16"
+            ],
+            "name": "Castaway Isle",
+            "region": "The Ancient Isles",
+            "type": "Small Island"
+        },
+        {
+            "coord": [
+                "K",
+                "19"
+            ],
+            "name": "Chicken Isle",
+            "region": "The Ancient Isles",
+            "type": "Small Island"
+        },
+        {
+            "coord": [
+                "Q",
+                "22"
+            ],
+            "name": "Cutlass Cay",
+            "region": "The Ancient Isles",
+            "type": "Small Island"
+        },
+        {
+            "coord": [
+                "K",
+                "17"
+            ],
+            "name": "Fools Lagoon",
+            "region": "The Ancient Isles",
+            "type": "Small Island"
+        },
+        {
+            "coord": [
+                "S",
+                "10"
+            ],
+            "name": "Isle of Last Words",
+            "region": "The Wilds",
+            "type": "Small Island"
+        },
+        {
+            "coord": [
+                "D",
+                "15"
+            ],
+            "name": "Lagoon of Whispers",
+            "region": "The Shores of Plenty",
+            "type": "Small Island"
+        },
+        {
+            "coord": [
+                "Y",
+                "13"
+            ],
+            "name": "Liar's Backbone",
+            "region": "The Wilds",
+            "type": "Small Island"
+        },
+        {
+            "coord": [
+                "I",
+                "9"
+            ],
+            "name": "Lonely Isle",
+            "region": "The Shores of Plenty",
+            "type": "Small Island"
+        },
+        {
+            "coord": [
+                "L",
+                "25"
+            ],
+            "name": "Lookout Point",
+            "region": "The Ancient Isles",
+            "type": "Small Island"
+        },
+        {
+            "coord": [
+                "R",
+                "24"
+            ],
+            "name": "Mutineer Rock",
+            "region": "The Ancient Isles",
+            "type": "Small Island"
+        },
+        {
+            "coord": [
+                "G",
+                "23"
+            ],
+            "name": "Old Salts Atoll",
+            "region": "The Ancient Isles",
+            "type": "Small Island"
+        },
+        {
+            "coord": [
+                "O",
+                "21"
+            ],
+            "name": "Paradise Spring",
+            "region": "The Ancient Isles",
+            "type": "Small Island"
+        },
+        {
+            "coord": [
+                "K",
+                "4"
+            ],
+            "name": "Picaroon Palms",
+            "region": "The Shores of Plenty",
+            "type": "Small Island"
+        },
+        {
+            "coord": [
+                "W",
+                "6"
+            ],
+            "name": "Plunderer's Plight",
+            "region": "The Wilds",
+            "type": "Small Island"
+        },
+        {
+            "coord": [
+                "D",
+                "9"
+            ],
+            "name": "Rapier Cay",
+            "region": "The Shores of Plenty",
+            "type": "Small Island"
+        },
+        {
+            "coord": [
+                "J",
+                "11"
+            ],
+            "name": "Rum Runner Isle",
+            "region": "The Shores of Plenty",
+            "type": "Small Island"
+        },
+        {
+            "coord": [
+                "I",
+                "3"
+            ],
+            "name": "Salty Sands",
+            "region": "The Shores of Plenty",
+            "type": "Small Island"
+        },
+        {
+            "coord": [
+                "E",
+                "5"
+            ],
+            "name": "Sandy Shallows",
+            "region": "The Shores of Plenty",
+            "type": "Small Island"
+        },
+        {
+            "coord": [
+                "N",
+                "4"
+            ],
+            "name": "Scurvy Isley",
+            "region": "The Wilds",
+            "type": "Small Island"
+        },
+        {
+            "coord": [
+                "B",
+                "13"
+            ],
+            "name": "Sea Dog's Rest",
+            "region": "The Shores of Plenty",
+            "type": "Small Island"
+        },
+        {
+            "coord": [
+                "U",
+                "15"
+            ],
+            "name": "Shark Tooth Key",
+            "region": "The Wilds",
+            "type": "Small Island"
+        },
+        {
+            "coord": [
+                "V",
+                "13"
+            ],
+            "name": "Shiver Retreat",
+            "region": "The Wilds",
+            "type": "Small Island"
+        },
+        {
+            "coord": [
+                "W",
+                "11"
+            ],
+            "name": "Tri-Rock Isle",
+            "region": "The Wilds",
+            "type": "Small Island"
+        },
+        {
+            "coord": [
+                "I",
+                "13"
+            ],
+            "name": "Twin Groves",
+            "region": "The Shores of Plenty",
+            "type": "Small Island"
+        },
+        {
+            "coord": [
+                "H",
+                "11"
+            ],
+            "name": "Cannon Cove",
+            "region": "The Shores of Plenty",
+            "type": "Large Island"
+        },
+        {
+            "coord": [
+                "Q",
+                "19"
+            ],
+            "name": "Crook's Hollow",
+            "region": "The Ancient Isles",
+            "type": "Large Island"
+        },
+        {
+            "coord": [
+                "U",
+                "24"
+            ],
+            "name": "Devil's Ridge",
+            "region": "The Ancient Isles",
+            "type": "Large Island"
+        },
+        {
+            "coord": [
+                "E",
+                "24"
+            ],
+            "name": "Discovery Ridge",
+            "region": "The Ancient Isles",
+            "type": "Large Island"
+        },
+        {
+            "coord": [
+                "X",
+                "15"
+            ],
+            "name": "Kraken's Fall",
+            "region": "The Wilds",
+            "type": "Large Island"
+        },
+        {
+            "coord": [
+                "J",
+                "6"
+            ],
+            "name": "Lone Cove",
+            "region": "The Shores of Plenty",
+            "type": "Large Island"
+        },
+        {
+            "coord": [
+                "V",
+                "3"
+            ],
+            "name": "Marauder's Arch",
+            "region": "The Wilds",
+            "type": "Large Island"
+        },
+        {
+            "coord": [
+                "B",
+                "16"
+            ],
+            "name": "Mermaid's Hideaway",
+            "region": "The Shores of Plenty",
+            "type": "Large Island"
+        },
+        {
+            "coord": [
+                "Q",
+                "4"
+            ],
+            "name": "Old Faithful Isle",
+            "region": "The Wilds",
+            "type": "Large Island"
+        },
+        {
+            "coord": [
+                "H",
+                "19"
+            ],
+            "name": "Plunder Valley",
+            "region": "The Ancient Isles",
+            "type": "Large Island"
+        },
+        {
+            "coord": [
+                "B",
+                "3"
+            ],
+            "name": "Sailor's Bounty",
+            "region": "The Shores of Plenty",
+            "type": "Large Island"
+        },
+        {
+            "coord": [
+                "I",
+                "24"
+            ],
+            "name": "Shark Bait Cove",
+            "region": "The Ancient Isles",
+            "type": "Large Island"
+        },
+        {
+            "coord": [
+                "Q",
+                "12"
+            ],
+            "name": "Shipwreck Bay",
+            "region": "The Wilds",
+            "type": "Large Island"
+        },
+        {
+            "coord": [
+                "F",
+                "3"
+            ],
+            "name": "Smugglers' Bay",
+            "region": "The Shores of Plenty",
+            "type": "Large Island"
+        },
+        {
+            "coord": [
+                "N",
+                "19"
+            ],
+            "name": "Snake Island",
+            "region": "The Ancient Isles",
+            "type": "Large Island"
+        },
+        {
+            "coord": [
+                "T",
+                "13"
+            ],
+            "name": "The Crooked Masts",
+            "region": "The Wilds",
+            "type": "Large Island"
+        },
+        {
+            "coord": [
+                "T",
+                "8"
+            ],
+            "name": "The Sunken Grove",
+            "region": "The Wilds",
+            "type": "Large Island"
+        },
+        {
+            "coord": [
+                "P",
+                "24"
+            ],
+            "name": "Thieves' Haven",
+            "region": "The Ancient Isles",
+            "type": "Large Island"
+        },
+        {
+            "coord": [
+                "H",
+                "14"
+            ],
+            "name": "Wanderers Refuge",
+            "region": "The Shores of Plenty",
+            "type": "Large Island"
+        },
+        {
+            "coord": [
+                "K",
+                "9"
+            ],
+            "name": "Hidden Spring Keep",
+            "region": "The Shores of Plenty",
+            "type": "Fortress"
+        },
+        {
+            "coord": [
+                "C",
+                "7"
+            ],
+            "name": "Keel Haul Fort",
+            "region": "The Shores of Plenty",
+            "type": "Fortress"
+        },
+        {
+            "coord": [
+                "O",
+                "6"
+            ],
+            "name": "Kraken Watchtower",
+            "region": "The Wilds",
+            "type": "Fortress"
+        },
+        {
+            "coord": [
+                "J",
+                "21"
+            ],
+            "name": "Lost Gold Fort",
+            "region": "The Ancient Isles",
+            "type": "Fortress"
+        },
+        {
+            "coord": [
+                "P",
+                "17"
+            ],
+            "name": "Old Boot Fort",
+            "region": "The Ancient Isles",
+            "type": "Fortress"
+        },
+        {
+            "coord": [
+                "E",
+                "17"
+            ],
+            "name": "Sailor's Knot Stronghold",
+            "region": "The Shores of Plenty",
+            "type": "Fortress"
+        },
+        {
+            "coord": [
+                "U",
+                "5"
+            ],
+            "name": "Shark Fin Camp",
+            "region": "The Wilds",
+            "type": "Fortress"
+        },
+        {
+            "coord": [
+                "U",
+                "11"
+            ],
+            "name": "Skull Keep",
+            "region": "The Wilds",
+            "type": "Fortress"
+        },
+        {
+            "coord": [
+                "S",
+                "22"
+            ],
+            "name": "The Crow's Nest Fortress",
+            "region": "The Ancient Isles",
+            "type": "Fortress"
+        }
+    ],
+    "outposts": [
+        {
+            "coord": [
+                "V",
+                "21"
+            ],
+            "name": "Ancient Spire Outpost"
+        },
+        {
+            "coord": [
+                "Q",
+                "8"
+            ],
+            "name": "Dagger Tooth Outpost"
+        },
+        {
+            "coord": [
+                "X",
+                "9"
+            ],
+            "name": "Galleon's Grave Outpost"
+        },
+        {
+            "coord": [
+                "E",
+                "12"
+            ],
+            "name": "Golden Sands Outpost"
+        },
+        {
+            "coord": [
+                "M",
+                "22"
+            ],
+            "name": "Plunder Outpost"
+        },
+        {
+            "coord": [
+                "G",
+                "7"
+            ],
+            "name": "Sanctuary Outpost"
+        }
+    ]
 }
