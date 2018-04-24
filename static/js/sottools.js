@@ -16,7 +16,7 @@ function appendRow(parentId, childId) {
 };
 
 window.onload=function() {
-    if (document.location.pathname === '/loot-calc') {
+    if ( document.location.pathname.includes('/loot-calc') ) {
         document.getElementById("addMore").addEventListener("click", function() {
             appendRow("loot-form", "row1");
         });

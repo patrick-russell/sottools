@@ -27,20 +27,20 @@
             {% set count = value['count'] %}
             <tr>
                 <td>{{ value['name'] }}</td>
-                <td class="round-me">{{ count }}</td>
-                <td class="round-me">£{{ value['average'] * count }}</td>
-                <td class="round-me">£{{ value['median'] * count }}</td>
-                <td class="round-me">£{{ value['standard deviation'] * count }}</td>
+                <td>{{ count }}</td>
+                <td>£{{ value['average'] }}</td>
+                <td>£{{ value['median'] }}</td>
+                <td>£{{ value['standard deviation'] }}</td>
             </tr>
         {% endfor %}
         <tr>
             <td>Total</td>
-            <td class="round-me">{{ totals['count'] }}</td>
-            <td class="round-me">£{{ totals['average'] }}</td>
-            <td class="round-me">£{{ totals['median'] }}</td>
+            <td>{{ totals['count'] }}</td>
+            <td>£{{ totals['average'] }}</td>
+            <td>£{{ totals['median'] }}</td>
             <td></td>
         </tr>
-        <small class="float-right">values in ducets</small>
+        <small class="float-right">values in ducats</small>
     </table>
 </div>
 </div>

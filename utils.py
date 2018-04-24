@@ -29,3 +29,7 @@ def euclidean_distance(P1, P2):
     Xs = (P1[0] - P2[0])**2
     Ys = (P1[1] - P2[1])**2
     return math.sqrt(Xs - Ys)
+
+def whereami():
+    stage = os.environ.get('STAGE', '')
+    return stage.lower()
