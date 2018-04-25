@@ -13,8 +13,7 @@ import datetime as dt
 import hashlib
 
 from flask import (Flask, render_template, url_for, redirect, request,
-                   session, flash)
-from werkzeug.wsgi import DispatcherMiddleware
+                   session, jsonify)
 from flask_cors import CORS
 from flask_s3 import FlaskS3
 
