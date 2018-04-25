@@ -13,7 +13,7 @@ import datetime as dt
 import hashlib
 
 from flask import (Flask, render_template, url_for, redirect, request,
-                   session, jsonify)
+                   session, jsonify, send_from_directory, g)
 from flask_cors import CORS
 from flask_s3 import FlaskS3
 
@@ -32,13 +32,27 @@ def start_app():
     app.jinja_env.trim_blocks = True
     app.jinja_env.lstrip_blocks = True
     app.config['FLASKS3_BUCKET_NAME'] = os.environ.get('S3_BUCKET_NAME')
-    app.config['STAGE'] = whereami()
     return app
 
 
 cors = CORS()
 s3 = FlaskS3()
 app = start_app()
+
+
+@app.url_defaults
+def add_stage(endpoint, values):
+    '''http://flask.pocoo.org/docs/0.12/patterns/urlprocessors/'''
+    if 'stage' in values or not g.stage:
+        return
+    if app.url_map.is_endpoint_expecting(endpoint, 'stage'):
+        values['stage'] = g.stage
+
+
+@app.url_value_preprocessor
+def pull_stage(endpoint, values):
+    if values:
+        g.stage = values.pop('stage', None)
 
 
 @app.before_request
@@ -54,11 +68,13 @@ def set_session():
 
 
 @app.route('/')
+@app.route('/<stage>/')
 def index():
+    g.stage = whereami()
     return redirect(url_for('loot_calc'))
 
 
-@app.route('/loot-calc', methods=['GET', 'POST'])
+@app.route('/<stage>/loot-calc', methods=['GET', 'POST'])
 def loot_calc():
     """contains form to submit your haul.
     returns estimated ducat amount
@@ -70,7 +86,7 @@ def loot_calc():
     return render_template('loot_calc.html', form=form)
 
 
-@app.route('/loot-submit')
+@app.route('/<stage>/loot-submit')
 def loot_submit():
     """contains form for submitting your loots
     type, level, sale point, count
@@ -79,14 +95,14 @@ def loot_submit():
     pass
 
 
-@app.route('/api/calc', methods=['POST'])
+@app.route('/<stage>/api/calc', methods=['POST'])
 def api_calc():
     """future ajax endpoint"""
     if request.method == 'POST':
         return jsonify('not yet implemented')
 
 
-@app.route('/api/loot-submit', methods=['POST'])
+@app.route('/<stage>/api/loot-submit', methods=['POST'])
 def api_loot_submit():
     """future ajax endpoint
     submit loot, store in the database
@@ -99,3 +115,10 @@ def api_loot_submit():
     """
     if request.method == 'POST':
         return jsonify('not yet implemented')
+
+
+@app.route('/<stage>/robots.txt')
+@app.route('/<stage>/favicon.ico')
+def static_from_root():
+    """https://stackoverflow.com/questions/14048779/with-flask-how-can-i-serve-robots-txt-and-sitemap-xml-as-static-files"""
+    return send_from_directory(app.static_folder, request.path[1:])
