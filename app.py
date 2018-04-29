@@ -40,21 +40,6 @@ s3 = FlaskS3()
 app = start_app()
 
 
-@app.url_defaults
-def add_stage(endpoint, values):
-    '''http://flask.pocoo.org/docs/0.12/patterns/urlprocessors/'''
-    if 'stage' in values or not g.stage:
-        return
-    if app.url_map.is_endpoint_expecting(endpoint, 'stage'):
-        values['stage'] = g.stage
-
-
-@app.url_value_preprocessor
-def pull_stage(endpoint, values):
-    if values:
-        g.stage = values.pop('stage', None)
-
-
 @app.before_request
 def set_session():
     remote_addr = request.remote_addr.encode('utf-8')
@@ -68,13 +53,12 @@ def set_session():
 
 
 @app.route('/')
-@app.route('/<stage>/')
 def index():
     g.stage = whereami()
     return redirect(url_for('loot_calc'))
 
 
-@app.route('/<stage>/loot-calc', methods=['GET', 'POST'])
+@app.route('/loot-calc', methods=['GET', 'POST'])
 def loot_calc():
     """contains form to submit your haul.
     returns estimated ducat amount
@@ -86,7 +70,7 @@ def loot_calc():
     return render_template('loot_calc.html', form=form)
 
 
-@app.route('/<stage>/loot-submit')
+@app.route('/loot-submit')
 def loot_submit():
     """contains form for submitting your loots
     type, level, sale point, count
@@ -95,14 +79,14 @@ def loot_submit():
     pass
 
 
-@app.route('/<stage>/api/calc', methods=['POST'])
+@app.route('/api/calc', methods=['POST'])
 def api_calc():
     """future ajax endpoint"""
     if request.method == 'POST':
         return jsonify('not yet implemented')
 
 
-@app.route('/<stage>/api/loot-submit', methods=['POST'])
+@app.route('/api/loot-submit', methods=['POST'])
 def api_loot_submit():
     """future ajax endpoint
     submit loot, store in the database
@@ -117,8 +101,8 @@ def api_loot_submit():
         return jsonify('not yet implemented')
 
 
-@app.route('/<stage>/robots.txt')
-@app.route('/<stage>/favicon.ico')
+@app.route('/robots.txt')
+@app.route('/favicon.ico')
 def static_from_root():
     """https://stackoverflow.com/questions/14048779/with-flask-how-can-i-serve-robots-txt-and-sitemap-xml-as-static-files"""
     return send_from_directory(app.static_folder, request.path[1:])
